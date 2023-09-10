@@ -55,7 +55,7 @@ namespace BasketBallTimer.Models
         {
             Seconds -= 0.1;
 
-            if (Seconds <= 0.1)
+            if (Seconds <= 0)
             {
                 buzzer.Play();
 
